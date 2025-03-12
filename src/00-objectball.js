@@ -117,6 +117,7 @@ function gameObject(){
             }
         }
     }
+    return obj;
 }
 
 function numPointsScored(playerName){
@@ -267,3 +268,4 @@ function doesLongNameStealATon() {
    
     return longestName === topStealer;
 }
+
